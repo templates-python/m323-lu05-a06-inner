@@ -8,13 +8,15 @@ def find_min_max(numbers):
     Returns:
         tuple: Minimum and maximum values in the list.
     """
-    # TODO: Innere Funktion zur Ermittlung des Minimums
+    def find_min():
+        """Find the minimum value in the list."""
+        return min(numbers) if numbers else None
 
-    # TODO: Innere Funktion zur Ermittlung des Maximums
+    def find_max():
+        """Find the maximum value in the list."""
+        return max(numbers) if numbers else None
 
-    # TODO: Rufen Sie die beiden inneren Funktionen auf und speichern Sie die Ergebnisse
-    # TODO: Geben Sie das gefundene Minimum und Maximum zurück
-    ...
+    return find_min(), find_max()
 
 
 if __name__ == '__main__':
