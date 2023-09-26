@@ -1,12 +1,22 @@
-def calculate():
+def find_min_max(numbers):
     """
-    calculates the total
-    :return: None
+    Find the minimum and maximum values in a list using inner functions.
+
+    Parameters:
+        numbers (list): List of numbers.
+
+    Returns:
+        tuple: Minimum and maximum values in the list.
     """
-    price = 15.75
-    quantity = 3  # TODO change quantity to 5
-    print(f'Total: {price * quantity}')
+    # TODO: Innere Funktion zur Ermittlung des Minimums
+
+    # TODO: Innere Funktion zur Ermittlung des Maximums
+
+    # TODO: Rufen Sie die beiden inneren Funktionen auf und speichern Sie die Ergebnisse
+    # TODO: Geben Sie das gefundene Minimum und Maximum zurück
+    ...
 
 
 if __name__ == '__main__':
-    calculate()
+    result = find_min_max([1, 2, 3, 4, 5])
+    print(result)  # Sollte (1, 5) zurückgeben
