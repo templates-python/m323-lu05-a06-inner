@@ -1,0 +1,32 @@
+[
+  {
+    "name": "test_find_min_max_empty_list",
+    "function": "test_find_min_max_empty_list",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_find_min_max_single_element",
+    "function": "test_find_min_max_single_element",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_find_min_max_multiple_elements",
+    "function": "test_find_min_max_multiple_elements",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_find_min_max_negative_elements",
+    "function": "test_find_min_max_negative_elements",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_find_min_max_mixed_elements",
+    "function": "test_find_min_max_mixed_elements",
+    "timeout": 10,
+    "points": 1
+  }
+]
