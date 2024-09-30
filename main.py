@@ -8,6 +8,7 @@ def find_min_max(numbers):
     Returns:
         tuple: Minimum and maximum values in the list.
     """
+
     def find_min():
         """Find the minimum value in the list."""
         return min(numbers) if numbers else None
