@@ -1,3 +1,8 @@
+"""Finden Sie das Minimum und das Maximum.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu05/aufgaben/inner
+"""
+
 def find_min_max(numbers):
     """
     Find the minimum and maximum values in a list using inner functions.
